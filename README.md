@@ -4,7 +4,7 @@
 - conda create -n yolo python=3.8
 - conda activate yolo
 - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple ultralytics
-- pip install ultralytics –upgrade
+- pip install ultralytics --upgrade
 - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy opencv-python 
 
 ### 2.用YOLO-V8进行关键点检测，将检测到的关键点保存到YOLO格式txt文件：
