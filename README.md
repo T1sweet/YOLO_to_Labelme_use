@@ -13,9 +13,11 @@
 # 3.在YOLO_to_Labelme_use.py脚本中，修改读入YOLO格式txt文件路径、输出Labelme格式JSON格式文件路径，并运行该脚本：
 - yolo_txt_path = 'E:\\dataset\\set01\\runs\pose\\predict2\\labels\\'    # yolo格式txt文件路径
 - labelme_json_path = 'E:\\dataset\\set01\\runs\pose\\predict2\\json\\'  # labelme格式json文件路径
+![image](https://github.com/T1sweet/-/assets/96241702/48fe53c5-6e99-464f-8f43-b9073501561c)
 
 # 4.将labelme格式的json文件和对应的图片文件导入标注工具labelme，对关键点进行人工矫正；
 - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple labelme
+![image](https://github.com/T1sweet/-/assets/96241702/4add8405-81c1-4e61-853d-be975629c262)
 
 # 5.把矫正后的labelme格式数据导出，转成需要的MSCOCO格式json文件。
 
