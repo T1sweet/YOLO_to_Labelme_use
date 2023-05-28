@@ -16,7 +16,7 @@
 - labelme_json_path = 'E:\\dataset\\set01\\runs\pose\\predict2\\json\\'  # labelme格式json文件路径
 ![image](https://github.com/T1sweet/YOLO_to_Labelme_use/assets/96241702/e3d9c2f3-1aa8-4324-9325-a0d2e4aaae2e)
 
-### 4.将labelme格式的json文件和对应的图片文件导入标注工具labelme，对关键点进行人工矫正；
+### 4.将labelme格式的json文件和对应的图片文件导入标注工具labelme，对关键点进行人工矫正：
 - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple labelme
 ![image](https://github.com/T1sweet/YOLO_to_Labelme_use/assets/96241702/ae53d843-463f-48fd-96c4-a255716e1c04)
 
