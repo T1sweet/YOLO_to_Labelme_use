@@ -1,4 +1,5 @@
 ### 关键点自动标注步骤 ✨✨✨
+# 如果对你的工作有所帮助，记得点上Star
 # 1.YOLO-V8安装：
 - conda create -n yolo python=3.8
 - conda activate yolo
@@ -18,8 +19,6 @@
 # 4.将labelme格式的json文件和对应的图片文件导入标注工具labelme，对关键点进行人工矫正；
 - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple labelme
 ![image](https://github.com/T1sweet/-/assets/96241702/4add8405-81c1-4e61-853d-be975629c262)
-
-# 5.把矫正后的labelme格式数据导出，转成需要的MSCOCO格式json文件。
 
 # 补充：YOLO-V8资料
 - YOLOV8文档：https://docs.ultralytics.com
