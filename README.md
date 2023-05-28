@@ -18,7 +18,7 @@
 
 ### 4.将labelme格式的json文件和对应的图片文件导入标注工具labelme，对关键点进行人工矫正；
 - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple labelme
-![image](https://github.com/T1sweet/-/assets/96241702/4add8405-81c1-4e61-853d-be975629c262)
+![image](https://github.com/T1sweet/YOLO_to_Labelme_use/assets/96241702/4add8405-81c1-4e61-853d-be975629c262)
 
 ### 补充：YOLO-V8资料
 - YOLOV8文档：https://docs.ultralytics.com
