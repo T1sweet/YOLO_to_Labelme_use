@@ -5,7 +5,7 @@
 - conda activate yolo
 - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple ultralytics
 - pip install ultralytics --upgrade
-- pip install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy opencv-python 
+- pip install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy opencv-python pillow pandas matplotlib seaborn tqdm
 
 ### 2.用YOLO-V8进行关键点检测，将检测到的关键点保存到YOLO格式txt文件：
 - yolo pose predict model= yolov8x-pose-p6.pt source=images device=0 save_txt=True save=False
