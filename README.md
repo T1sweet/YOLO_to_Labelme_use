@@ -8,6 +8,7 @@
 - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy opencv-python pillow pandas matplotlib seaborn tqdm
 
 ### 2.用YOLO-V8进行关键点检测，将检测到的关键点保存到YOLO格式txt文件：
+- 下载yolov8的模型yolov8x-pose-p6.pt
 - yolo pose predict model= yolov8x-pose-p6.pt source=images device=0 save_txt=True save=False
 ![image](https://github.com/T1sweet/YOLO_to_Labelme_use/assets/96241702/0c3619c0-027c-4426-9df8-afdcee9ec41c)
 
